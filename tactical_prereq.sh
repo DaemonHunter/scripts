@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt update
-apt install wget curl sudo ufw -y
+apt install nano wget curl sudo ufw -y
 apt upgrade -y
 useradd -m -G sudo -s /bin/bash tactical
 passwd tactical
